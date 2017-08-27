@@ -1,0 +1,43 @@
+.banner{
+  background-image: url("https://zolostays.com/assets/images/Banner-image_1400x-680.jpg");
+  width:auto;
+  height: 680px;
+  background-position: center;
+}
+
+.myNavbar{
+  color: white;
+  margin-right: 15%;
+}
+
+.navElement{
+  float: right;
+  padding: 20px;
+}
+
+.bannerContent{
+  color: white;
+  padding-top: 16%;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.bannerHeader{
+  font-size: 36px;
+  font-weight: 600;
+  margin: auto;
+  width: 26%;
+}
+
+.bannerButton{
+  border: 2px solid white;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.bannerButton:hover{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255,255,255,0.4);
+}

@@ -1,6 +1,5 @@
 .banner{
   background-image: url("https://zolostays.com/assets/images/Banner-image_1400x-680.jpg");
-  width:auto;
   height: 680px;
   background-position: center;
 }
@@ -15,6 +14,10 @@
   padding: 20px;
 }
 
+.navElement:hover{
+  border-bottom: 2px solid white;
+}
+
 .bannerContent{
   color: white;
   padding-top: 16%;
@@ -24,9 +27,8 @@
 
 .bannerHeader{
   font-size: 36px;
-  font-weight: 600;
-  margin: auto;
   width: 26%;
+  margin-bottom: 20px;
 }
 
 .bannerButton{
@@ -36,8 +38,252 @@
   text-decoration: none;
 }
 
-.bannerButton:hover{
+.bannerButton:hover, .bannerButton:active{
   text-decoration: none;
   color: white;
   background-color: rgba(255,255,255,0.4);
+}
+.bannerSearch{
+  margin-top: 50px;
+}
+.searchBox{
+  min-height: 40px;
+  width: 500px;
+  padding: 5px 5px 5px 15px;
+  color: black;
+}
+.searchButton{
+  vertical-align: initial!important;
+  width: 140px;
+  min-height: 40px;
+  border-radius: 0;
+}
+
+.iconContainer{
+  position: absolute;
+  background-color: white;
+  width: 960px;
+  height: 140px;
+  z-index: 100;
+  top: 600px;
+  left: 220px;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.icons{
+  width: 132px;
+  height: 76px;
+  float: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center 5px;
+}
+
+.iconContainerHeader{
+  margin-bottom: 17px;
+}
+.food{
+  background-image: url("https://zolostays.com/assets/images/svg/food-icon.svg");
+}
+
+.wifi{
+  background-image: url("https://zolostays.com/assets/images/svg/wi-fi-icon.svg");
+}
+
+.housekeeping{
+  background-image: url("https://zolostays.com/assets/images/svg/housekeeping.svg");
+}
+
+.tv{
+  background-image: url("https://zolostays.com/assets/images/svg/tv.svg");
+}
+
+.wadrobe{
+  background-image: url("https://zolostays.com/assets/images/svg/cupboard.svg");
+}
+
+.water{
+  background-image: url("https://zolostays.com/assets/images/svg/drinking-water-icon.svg");
+}
+
+.knowMore{
+  color: #7C7F82;
+  border: 2px solid #7C7F82;
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.knowMore:hover{
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.picsContainer{
+  height: 140px;
+  margin-top: 200px;
+  margin-left: 40px;
+  width: 85%;
+}
+
+.chennai{
+  background-image: url("https://zolostays.com/assets/images/chennai.jpg");
+}
+
+.bangalore{
+  background-image: url("https://zolostays.com/assets/images/bangalore1.png");
+}
+
+.pune{
+  background-image: url("https://zolostays.com/assets/images/pune1.png");
+}
+
+.kota{
+  background-image: url("https://zolostays.com/assets/images/kota1.png");
+}
+
+.marginLeft{
+  margin-left: 50px;
+}
+
+.width940px{
+  width: 940px;
+}
+
+.sectionOneImage{
+  float: right;
+  margin-right: 12%;
+  margin-top: 5%;
+}
+
+.mySection{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  margin-top: 95px;
+  padding: 80px 60px 60px 50px;
+  width: 510px;
+  height: 280px;
+  float: left;
+  font-size: 16px;
+  z-index: 100;
+  background-color: white;
+  left:17%;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.sectionOneImage2{
+  margin-left: -28%;
+  margin-top: 5%;
+}
+
+.mySection2{
+  margin-top: 95px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  padding: 0px 50px 52px 55px;
+  width: 510px;
+  height: 280px;
+  font-size: 16px;
+  z-index: 100;
+  background-color: white;
+  left:49%;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.testimonials{
+  height: auto;
+  position: relative;
+  width: 80%;
+}
+
+.testimonialIcon{
+  padding: 20px;
+  width: 300px;
+  margin-left: 30px;
+  box-shadow: 0 2px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.marginTop{
+  margin-top: 40px;
+}
+
+.textBlack{
+  color: black;
+}
+
+.textWhite{
+  color: white;
+}
+
+.text{
+  font-style: italic;
+  padding: 20px;
+}
+
+.backgroundBlack{
+  background-color: #263238;
+}
+
+.footerSection{
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 50px;
+}
+
+.width200px{
+  width: 200px;
+}
+
+.links{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.links>span{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.links>span.active{
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+.links>span.active:hover{
+  background-color: white;
+}
+
+.links>span:hover{
+  transition:0.5s;
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+.noPadding{
+  padding: 0;
+}
+
+.myHeading{
+  margin-top:50px;
+  margin-bottom:-30px;
+}
+
+.backgroundGrey{
+  background-color: #e6e6e6;
+  width: 100%;
 }
